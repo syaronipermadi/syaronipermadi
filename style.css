@@ -1,0 +1,224 @@
+.navbar{
+	height: 90px;
+	width: 100%;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+	position: fixed;
+	background-color: white;
+	top: 0;
+	overflow: hidden;
+}
+.batnav{
+	width: 1170px;
+	height: 90px;
+	margin: auto;
+}
+.logo{
+	float:left;
+}
+.navbutton{
+	text-decoration: none;
+	float:right;
+	font-family: KoHo;
+	font-size: 17px;
+	margin: 32px 0px auto 0px;
+}
+.navbutton li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 30px 0px 30px;
+	font-weight: bold;
+}
+.navbutton li a{
+	text-decoration: none;
+	color:black;
+}
+.bar::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #95b6d4;
+	transition: width .3s;
+}
+.bar:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+.bar:hover{
+	color:#95b6d4;
+}
+
+
+/*header*/
+.headbout{
+	background-image: url(asset/asset-header1.png);
+	background-size: cover;
+	background-position: center;
+	margin: 90px 0px 0px 0px;
+	height: 677px;
+	width: inherit;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+.head{
+	width: 800px;
+}
+.headbout h2{
+	padding-top: 380px;
+	font-family: KoHo;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 10px;
+	text-align: center;
+	color:white;
+}
+.headbout h1{
+	font-family: Fairplay display;
+	font-size: 116.15px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	margin-top:10px;
+	color: white;
+	display: inline-block;
+}
+/*content1*/
+.content{
+	width: 831.73px;
+	text-align:justify;
+	margin: auto;
+}
+.paraf1{
+	margin-top:100px;
+}
+.content p{
+	margin-bottom: 60px;
+	font-family: KoHo;
+	font-weight: normal;
+	font-size: 17.5px;
+}
+
+/*content2*/
+.content2{
+	width: 831.73px;
+	margin:150px auto 150px auto;
+}
+.wid1{
+	width: 676px;
+	height: 142px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	margin: auto auto 35px auto;
+	background-image: url(asset/asset-about1.png);
+}
+.wid2{
+	width: 676px;
+	height: 142px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	margin: auto auto 35px auto;
+	background-image: url(asset/asset-about2.png);
+}
+.jud1{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top:15px;
+	margin-bottom: 0px;
+	text-align: left;
+
+}
+.jud2{
+	font-weight: bold;
+	font-size: 20px;
+	margin:0px 0px 0px 0px;
+	text-align: right;
+
+}
+.parf2{
+	font-size: 11px; 
+	text-align:justify;
+	width: 200px;
+	margin:0px;
+	text-align-last: right;
+}
+.parf1{
+	font-size: 11px; 
+	text-align:justify;
+	width: 200px;
+	margin:0px;
+}
+.wida1{
+	float: right;
+	margin:20px 40px 0px 0px;
+
+}
+.wida2{
+	float: left;
+	margin:20px 0px 0px 40px;
+}
+
+/*footer*/
+.footer{
+	background-color: black;
+	width:100%;
+	height: 460px;
+	text-align: center;
+}
+#batas {
+	margin:auto;
+	padding-top: 90px;
+	width: 1070px;
+}
+.futer{
+	display: inline-block;
+	text-align: left;
+	position: static;
+}
+.futer2{
+	display: inline-block;
+	float: left;
+}
+.futer1{
+	display: inline-block;
+	float: right;
+	width: 150px;
+	text-align: left;
+}
+.judul1{
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	margin: 0px 0px 25px 0px;
+}
+.sos1{
+	height: 30px;
+	float: left;
+	display: inline-flex;
+	margin-right: 20px;
+}
+.nav2{
+	list-style: none;
+	color:white;
+	text-align: left;
+	padding:0px 0px 0px 5px;
+}
+.link1{
+	text-decoration: none;
+	color: white;
+	font-family: KoHo;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+.lislink{
+	margin-bottom: 15px;
+	color: white;
+	font-family: KoHo;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+#cr{
+	font-size: 13px;
+	font-weight:lighter;
+	color: white;
+	display: block;
+	margin-top:100px;
+}
+
